@@ -1,0 +1,20 @@
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+
+img {
+    width: 1000px;
+    height: 800px;
+}
+
+h1{
+    font-size: 12rem;
+}
+
+#h1 {
+    display: flex;
+    justify-content: center;
+}
