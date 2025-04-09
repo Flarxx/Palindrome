@@ -1,7 +1,12 @@
 const input = document.getElementById("text-input");
 const button = document.getElementById("check-btn");
-const input = document.getElementById("result");
+const result = document.getElementById("result");
 
-button.addEventListener("click"){
-    alert("please input value")
-}
+button.addEventListener("click", () => {
+    if (input.value === "") {
+      alert("Please input a value");
+    } else {
+      // Aquí podrías poner tu lógica de palíndromo
+      
+    }
+  });
